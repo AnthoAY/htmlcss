@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(27, 27, 27);
+}
+h2{
+    text-align: center;
+    color: rgb(123, 95, 160);
+    font-family: "altone", sans-serif;
+}
+p{
+    text-align: center;
+    font-size: 100%;
+    position: relative;
+    color: rgb(190, 16, 173);
+    font-family: "altone", sans-serif;
+}
+
+.d1{
+    position: relative;
+    scale: 40%;
+    TRANSFORM: ROTATE(0deg);
+    left:319px;
+    top:-155px;
+    transition:all 0.5s ease-out 0.5s;
+}
+
+.d1:hover{
+    transform:scale(110%);
+}
+
+.d2{
+    position: relative;
+    scale: 40%;
+    left: -222px;
+    top:104px;
+    transition:all 0.5s ease-out 0.5s;
+}
+
+.d2:hover{
+    transform:scale(110%);
+}
+
+.d3{
+    position: relative;
+    scale: 40%;
+    right: -442px;
+    top: -591px;
+    transition:all 0.5s ease-out 0.5s;
+}
+
+.d3:hover{
+    transform:scale(110%);
+}

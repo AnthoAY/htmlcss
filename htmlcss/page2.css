@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    font-family: 'Green_Energy', sans-serif;
+}
+
+@font-face {
+    font-family: 'Green_Energy';
+    src: url('html/css/Green_Energy.ttf') format('truetype');
+}
+
+body{display: flex;}
+
+nav{
+    min-height: 100vh;
+    width: 30vw;
+    background-color: rgb(27,27,27);
+    border-top: 5px solid #000000;
+    border-left: 5px solid #000000;
+}
+
+header{
+    min-height: 20vh;
+    width: 85vw;
+    background-color: rgb(27,27,27);
+    border-top: 5px solid #000000;
+    border-right: 5px solid #000000;
+}
+
+h1{
+    scale: 150%;
+    left:100px;
+    bottom: 55px;
+    color: rgb(255, 255, 255);
+    border: 0px solid rgb(194, 208, 255);
+    position: absolute;
+}
+
+h3{
+    left: 450px;
+    bottom: 60px;
+    color: #fff;
+    position: absolute;
+}
+
+span{
+    color: #1ddb00;
+}
+
+h2{
+    scale: 150%;
+    color: #646464;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 500px;
+    left: -5px;
+    text-shadow: rgba(0, 0, 0, 0.7);
+}
+
+
+
+.flex{
+    display: flex;
+}
+.flex div{
+    width: 70vw;
+}
+
+.text{
+    position: absolute;
+    scale: 50%;
+    top: -150px;
+    left: 450px;
+}
+
+.log{
+    position: absolute;
+    scale: 22%;
+    top: -340px;
+    left: -245px;
+    transition:all 0.5s ease-out 0.5s;
+}
+
+.log:hover{
+    transform:scale(115%);  
+}
+
+
+article{
+    background-color: rgb(216, 216, 216);
+    min-height: 60vh;
+    border-bottom: 10px solid #1ddb00;
+    border-right: 10px solid #1ddb00;
+    border-top: 10px solid #343434;
+    border-left: 10px solid #343434;
+}
+footer{
+    position: relative;
+    background-color: rgb(0, 167, 59);
+    min-height: 20vh;
+    width: 200%;
+}
+aside{
+    position: relative;
+    background-color: rgb(0, 167, 59);
+    width: 15vw;
+    left: 20px;
+}
+
+
+div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d1{
+    position: relative;
+    width: 15%;
+    height: 15%;
+    left:10%;
+    top:50px;
+}
+
+.d2{
+    position: relative;
+    width: 16%;
+    height: 16%;
+    left:17%;
+    top:50px;
+}
+
+.d3{
+    position: relative;
+    width: 14.5%;
+    height: 14.5%;
+    left:24%;
+    top:50px;
+}
+
+.d4{
+    position: relative;
+    width: 15%;
+    height: 15%;
+    left:30%;
+    top:50px;
+    transition:all 0.5s ease-out 0.5s;
+}
+
+.d4:hover{
+    transform:scale(115%);
+    animation:slideRight 2.5s;
+
+}
+@keyframes slideRight{
+    from{
+        transform: translate(3%);
+        transform: scale(1.5);
+    }
+    33% {
+        transform: translate(-3%);
+    }
+    66% {
+        transform: translate(3%);
+    }
+    to{
+        transform: translate(1.5%);
+        transform: scale(115%);
+    }
+}
+
+.d3:hover{
+    transform:scale(115%);
+    animation:slideRight 2.5s;
+
+}
+@keyframes slideRight{
+    from{
+        transform: translate(3%);
+        transform: scale(1.5);
+    }
+    33% {
+        transform: translate(-3%);
+    }
+    66% {
+        transform: translate(3%);
+    }
+    to{
+        transform: translate(1.5%);
+        transform: scale(115%);
+    }
+}
+
+.d2:hover{
+    transform:scale(115%);
+    animation:slideRight 2.5s;
+
+}
+@keyframes slideRight{
+    from{
+        transform: translate(3%);
+        transform: scale(1.5);
+    }
+    33% {
+        transform: translate(-3%);
+    }
+    66% {
+        transform: translate(3%);
+    }
+    to{
+        transform: translate(1.5%);
+        transform: scale(115%);
+    }
+}
+
+.d1:hover{
+    transform:scale(115%);
+    animation:slideRight 2.5s;
+
+}
+@keyframes slideRight{
+    from{
+        transform: translate(3%);
+        transform: scale(1.5);
+    }
+    33% {
+        transform: translate(-3%);
+    }
+    66% {
+        transform: translate(3%);
+    }
+    to{
+        transform: translate(1.5%);
+        transform: scale(115%);
+    }
+}
+
+
